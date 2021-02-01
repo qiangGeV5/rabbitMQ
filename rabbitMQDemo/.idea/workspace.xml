@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9039e802-7b88-44b8-b203-dc6a4b947da0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1npRVrBBKyX3vj57l7NSIA7QKBR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbit-consumer/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rabbit.producer.component" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rabbit.producer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbit-consumer/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApplicationTest">
+    <configuration name="ApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.producer.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbit.producer.component" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbit.producer.component.ApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.producer.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbit.producer.component" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbit.producer.component.ApplicationTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.producer.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbit.producer.component" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbit.producer.component.ApplicationTest" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbit.producer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbit.consumer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTest" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.ApplicationTest.test11" />
+        <item itemvalue="JUnit.ApplicationTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9039e802-7b88-44b8-b203-dc6a4b947da0" name="Default Changelist" comment="" />
+      <created>1612085071602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612085071602</updated>
+      <workItem from="1612085072960" duration="15544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="197" key="#Inspections" timestamp="1612099619484">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="197" key="#Inspections/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612099619484" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1612187712839">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612187712839" />
+    <state x="614" y="398" width="454" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612102645255">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="614" y="398" width="454" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612102645255" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom" timestamp="1612188321159">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.0.bottom/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612187058731" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321159" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center" timestamp="1612188321158">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.0.center/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612187058730" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321158" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left" timestamp="1612188321158">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.0.left/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612187058730" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321158" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right" timestamp="1612188321159">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.0.right/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612187058731" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321159" />
+    <state width="1638" height="171" key="GridCell.Tab.1.bottom" timestamp="1612185424214">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.1.bottom/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612185424214" />
+    <state width="1638" height="171" key="GridCell.Tab.1.center" timestamp="1612185424213">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.1.center/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612185424213" />
+    <state width="1638" height="171" key="GridCell.Tab.1.left" timestamp="1612185424213">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.1.left/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612185424213" />
+    <state width="1638" height="171" key="GridCell.Tab.1.right" timestamp="1612185424214">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="171" key="GridCell.Tab.1.right/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612185424214" />
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom" timestamp="1612181817396">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612181817396" />
+    <state width="1638" height="364" key="GridCell.Tab.2.center" timestamp="1612181817395">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.center/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612181817395" />
+    <state width="1638" height="364" key="GridCell.Tab.2.left" timestamp="1612181817395">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.left/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612181817395" />
+    <state width="1638" height="364" key="GridCell.Tab.2.right" timestamp="1612181817396">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.2.right/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612181817396" />
+    <state x="251" y="-857" width="1229" height="554" key="dock-window-1" timestamp="1612177401897">
+      <screen x="-164" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="251" y="-857" width="1229" height="554" key="dock-window-1/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612177401897" />
+    <state x="234" y="229" key="new project wizard" timestamp="1612185353366">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="234" y="229" key="new project wizard/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612185353366" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-producer/src/main/java/com/rabbit/producer/component/RabbitSender.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
