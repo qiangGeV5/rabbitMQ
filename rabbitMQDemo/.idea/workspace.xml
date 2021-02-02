@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9039e802-7b88-44b8-b203-dc6a4b947da0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/AsyncBaseQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/RabbitBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/RabbitBrokerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/RabbitTemplateContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/autoconfigure/RabbitProducerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/autoconfigure/RabbitProducerAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/ProducerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/RabbitBrokerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/RabbitBrokerImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612085071602</updated>
       <workItem from="1612085072960" duration="18658000" />
-      <workItem from="1612244764979" duration="5531000" />
+      <workItem from="1612244764979" duration="8192000" />
     </task>
     <servers />
   </component>
@@ -188,10 +185,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="642" y="525" key="#com.intellij.fileTypes.FileTypeChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612246612244" />
-    <state x="653" y="248" width="1027" height="567" key="#com.intellij.ide.util.MemberChooser" timestamp="1612249733763">
+    <state x="653" y="248" width="1027" height="567" key="#com.intellij.ide.util.MemberChooser" timestamp="1612270552036">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="653" y="248" width="1027" height="567" key="#com.intellij.ide.util.MemberChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612249733763" />
+    <state x="653" y="248" width="1027" height="567" key="#com.intellij.ide.util.MemberChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612270552036" />
     <state x="614" y="398" width="454" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612102645255">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

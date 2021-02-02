@@ -9,13 +9,20 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * 发送消息实现类
+ */
 @Slf4j
 @Component
 public class RabbitBrokerImpl implements RabbitBroker {
 
     @Autowired
-    private RabbitTemplate rabbitTemplate;
+    private RabbitTemplateContainer rabbitTemplateContainer;
 
+    /**
+     * 发送迅速消息
+     * @param message
+     */
     @Override
     public void rapidSend(Message message) {
         message.setMessageType(MessageType.RAPID);
@@ -48,6 +55,7 @@ public class RabbitBrokerImpl implements RabbitBroker {
                     message.getMessageId(), System.currentTimeMillis()));
             String routingKey = message.getRoutingKey();
             String topic = message.getTopic();
+            RabbitTemplate rabbitTemplate = rabbitTemplateContainer.getTemplate(message);
             rabbitTemplate.convertAndSend(topic,routingKey,message,correlationData);
             log.error("#RabbitBrokerImpl.sendKernel# send to rabbitmq, messageId:{}",message.getMessageId());
         });
