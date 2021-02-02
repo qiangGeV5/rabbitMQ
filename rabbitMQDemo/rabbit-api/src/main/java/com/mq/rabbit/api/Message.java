@@ -12,8 +12,6 @@ import java.util.Map;
 @Data
 public class Message implements Serializable {
 
-    private static final long serialVersionUID = 841277940410721237L;
-
     /**
      * 消息唯一id
      */
@@ -54,5 +52,13 @@ public class Message implements Serializable {
         this.attributes = attributes;
         this.delayMills = delayMills;
         this.messageType = messageType;
+    }
+
+    public Message(String messageId, String topic, String routingKey, Map<String, Object> attributes, int delayMills) {
+        this.messageId = messageId;
+        this.topic = topic;
+        this.routingKey = routingKey;
+        this.attributes = attributes;
+        this.delayMills = delayMills;
     }
 }
