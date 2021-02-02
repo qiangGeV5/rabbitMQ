@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9039e802-7b88-44b8-b203-dc6a4b947da0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-api/src/main/java/com/mq/rabbit/api/MessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-api/src/main/java/com/mq/rabbit/api/MessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-api/src/main/java/com/mq/rabbit/api/SendCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/autoconfigure/RabbitProducerAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/mq/rabbit/producer/brocker/ProducerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/resources/META-INFO/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-api/rabbit-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-common/rabbit-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/rabbit-core-producer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-task/rabbit-task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-core-producer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +57,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
@@ -169,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612085071602</updated>
       <workItem from="1612085072960" duration="18658000" />
-      <workItem from="1612244764979" duration="571000" />
+      <workItem from="1612244764979" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -181,33 +180,41 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="197" key="#Inspections/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612099619484" />
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1612236865932">
+    <state x="0" y="381" key="#Project_Structure" timestamp="1612246055915">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612236865932" />
+    <state x="0" y="381" key="#Project_Structure/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612246055915" />
+    <state x="642" y="525" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612246612244">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="642" y="525" key="#com.intellij.fileTypes.FileTypeChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612246612244" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1612247234409">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612247234409" />
     <state x="614" y="398" width="454" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612102645255">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="614" y="398" width="454" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612102645255" />
-    <state width="1638" height="357" key="GridCell.Tab.0.bottom" timestamp="1612244971885">
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom" timestamp="1612247293290">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="357" key="GridCell.Tab.0.bottom/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612244971885" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612247293290" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321159" />
-    <state width="1638" height="357" key="GridCell.Tab.0.center" timestamp="1612244971884">
+    <state width="1638" height="357" key="GridCell.Tab.0.center" timestamp="1612247293289">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="357" key="GridCell.Tab.0.center/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612244971884" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612247293289" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321158" />
-    <state width="1638" height="357" key="GridCell.Tab.0.left" timestamp="1612244971884">
+    <state width="1638" height="357" key="GridCell.Tab.0.left" timestamp="1612247293288">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="357" key="GridCell.Tab.0.left/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612244971884" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612247293288" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321158" />
-    <state width="1638" height="357" key="GridCell.Tab.0.right" timestamp="1612244971885">
+    <state width="1638" height="357" key="GridCell.Tab.0.right" timestamp="1612247293290">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="357" key="GridCell.Tab.0.right/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612244971885" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/-164.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1612247293290" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1612188321159" />
     <state width="1638" height="171" key="GridCell.Tab.1.bottom" timestamp="1612185424214">
       <screen x="0" y="23" width="1680" height="1027" />
