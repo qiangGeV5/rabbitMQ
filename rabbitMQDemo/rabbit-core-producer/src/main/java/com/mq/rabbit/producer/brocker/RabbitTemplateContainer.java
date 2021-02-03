@@ -7,6 +7,12 @@ import com.mq.rabbit.api.Message;
 import com.mq.rabbit.api.MessageType;
 import com.mq.rabbit.api.exception.MessageException;
 import com.mq.rabbit.api.exception.MessageRunTimeException;
+import com.mq.rabbit.common.convert.GenericMessageConverter;
+import com.mq.rabbit.common.convert.RabbitMessageConverter;
+import com.mq.rabbit.common.serializer.Serializer;
+import com.mq.rabbit.common.serializer.SerializerFactory;
+import com.mq.rabbit.common.serializer.impl.JacksonSerializer;
+import com.mq.rabbit.common.serializer.impl.JacksonSerializerFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
@@ -26,6 +32,8 @@ import java.util.Map;
 public class RabbitTemplateContainer implements RabbitTemplate.ConfirmCallback{
 
     private Map<String/*topic*/, RabbitTemplate> rabbitMap = Maps.newConcurrentMap();
+
+    private SerializerFactory serializerFactory = JacksonSerializerFactory.INSTANCE;
 
     private Splitter splitter = Splitter.on("#");
 
@@ -48,7 +56,10 @@ public class RabbitTemplateContainer implements RabbitTemplate.ConfirmCallback{
         newRabbitTemplate.setRetryTemplate(new RetryTemplate());
 
         //message序列化方式
-//        newRabbitTemplate.setMessageConverter(messageConverter);
+        Serializer serializer = serializerFactory.create();
+        GenericMessageConverter genericMessageConverter = new GenericMessageConverter(Serializer);
+        RabbitMessageConverter rabbitMessageConverter = new RabbitMessageConverter(genericMessageConverter);
+        newRabbitTemplate.setMessageConverter(rabbitMessageConverter);
 
         String messageType = message.getMessageType();
         if (!MessageType.RAPID.equals(messageType)){
